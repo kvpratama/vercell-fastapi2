@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from ..ai.graph import workflow_app
+from .graph import workflow_app
 
 app = FastAPI()
 
